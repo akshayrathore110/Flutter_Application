@@ -1,0 +1,21 @@
+name: com.cocksukergoogle.com
+description: A Flutter project for performance optimization.
+version: 1.0.0
+title: Performance Booster
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
